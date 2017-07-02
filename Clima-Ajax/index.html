@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title> Clima</title>
+
+	<!-- Importacion del Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<main>
+
+  <div align="center">
+      <h1>Clima API, <small> Getafe</small></h1>
+      <h4 class="lead">Fuente OpenWhater</h4>
+     
+  </div>
+   <div class="device">
+      <section align="center">
+         
+         <!--loading-->
+         <div class="divLoading">
+            <i class="fa fa-spin fa-refresh"></i>
+            <span>cargando...</span>
+         </div>
+
+         <!--info-->
+         <div class="divInfo">
+            <img src="img/02d.png" class="imgClima" alt="">
+            <br>
+            <span class="lblTemp">40 C</span>
+            <br>
+            <span class="lblCity">Getafe, Madrid</span>
+         </div>
+
+
+      </section>
+   </div>
+</main>
+
+
+
+
+	<script src="js/lib/jquery-2.1.4.min.js"></script>
+	<script src="js/lib/TweenMax.min.js"></script>
+	<script src="js/ajax.js"></script>
+</body>
+
+</html>
